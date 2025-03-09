@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+}
+img {
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: solid 5px black;
+}
+#content {
+  display: flex;
+  justify-content: center;
+  animation-name: fadeAway;
+}
+.fading {
+  animation-name: fadeAway;
+  animation-duration: 3s;
+  /* animation-iteration-count: unset; */
+}
+@keyframes fadeAway {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#links {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+a {
+  /* text-decoration: none; */
+  color: black;
+  background-color: rgb(204, 204, 204);
+  padding: 1rem;
+  border-radius: 3px;
+}
+a:hover {
+  scale: 1.01;
+  background-color: ghostwhite;
+  transition: all 0.3s;
+}

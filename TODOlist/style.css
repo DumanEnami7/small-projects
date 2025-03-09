@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+html {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  align-items: center;
+  background-color: snow;
+  height: 20rem;
+  justify-content: space-around;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+.item {
+  display: flex;
+  gap: 2rem;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
