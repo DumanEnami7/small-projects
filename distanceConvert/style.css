@@ -5,9 +5,9 @@
   font-family: sans-serif;
 }
 .mainContent {
+  /* the main thing */
   display: flex;
   flex-direction: column;
-  /* width: 50%; */
   margin-top: 5rem;
   align-items: center;
   gap: 2rem;
@@ -20,6 +20,7 @@ html {
   justify-content: center;
 }
 .result {
+  /* greenish part */
   background-color: rgb(204, 243, 164);
   width: 100%;
   height: 3rem;
@@ -41,4 +42,7 @@ button {
   text-align: center;
   font-size: larger;
   padding: 1rem;
+}
+h2 {
+  font-size: 25px;
 }
