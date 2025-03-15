@@ -2,7 +2,7 @@ let btn = document.querySelector("button");
 let resultContainer = document.querySelector(".result");
 let conType = "mile";
 let header = document.querySelector("h2");
-let mainCont = document.querySelector(".mainContent");
+// switching the conversion types
 document.addEventListener("keypress", function (evt) {
   if (evt.key === "k") {
     header.innerHTML = "Kilometer to Miles converter";
@@ -12,9 +12,9 @@ document.addEventListener("keypress", function (evt) {
     header.innerHTML = "Miles to Kilometer converter";
     conType = "mile";
   }
-  // alert(conType);
   return conType;
 });
+// kilometer to miles
 btn.addEventListener("click", function () {
   if (conType === "mile") {
     let inputVal = parseFloat(document.querySelector("input").value);
@@ -28,6 +28,8 @@ btn.addEventListener("click", function () {
       alert(`${inputVal} is not a number`);
     }
   }
+  // miles to kilometers
+
   if (conType === "kilometer") {
     let inputVal = parseFloat(document.querySelector("input").value);
     // alert();
@@ -41,4 +43,3 @@ btn.addEventListener("click", function () {
     }
   }
 });
-// TODO: FIX UP THE WIDTH SHRINKING ISSUE

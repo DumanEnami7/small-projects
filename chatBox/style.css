@@ -1,0 +1,50 @@
+* {
+  font-family: monospace;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  background-color: rgb(214, 214, 214);
+  gap: 2rem;
+  width: 100%;
+}
+.chats {
+  height: 25rem;
+
+  width: 50%;
+  display: flex;
+  /* justify-content: center; */
+  border-radius: 5px;
+  flex-direction: column;
+  padding-right: 10%r;
+}
+.chatControl {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0;
+  flex-direction: row;
+  /* align-items: flex-end; */
+  /* margin-top: 100%; */
+}
+.clientMsg {
+  margin-left: 70%;
+  margin-top: 0.5rem;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: right;
+  border-radius: 5px;
+  width: fit-content;
+}
