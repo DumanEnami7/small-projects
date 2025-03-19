@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.feedBckMenu {
+  display: flex;
+  text-align: center;
+  gap: 2rem;
+  /* margin-top: 5rem; */
+}
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.feed {
+  /* background-color: rgb(50, 145, 63); */
+  padding: 1rem;
+  border-radius: 6px;
+  border: solid 2px chartreuse;
+  transition: all 0.25s;
+}
+h3 {
+  align-self: center;
+  justify-self: center;
+}
+/* .feed:hover {
+  scale: 1.1;
+  cursor: pointer;
+  background-color: rgb(68, 222, 88);
+  /* color: whitesmoke; */
+
+button {
+  border: none;
+  background-color: rgba(240, 248, 255, 0);
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.submit {
+  padding: 0.5rem;
+  text-align: center;
+  width: 5rem;
+  border-radius: 5px;
+  background-color: rgb(0, 255, 149);
+}
+.clicked {
+  background-color: forestgreen;
+  color: white;
+}
+.noClick {
+  background-color: rgba(240, 248, 255, 0);
+}
