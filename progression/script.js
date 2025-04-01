@@ -1,12 +1,15 @@
-const checkPoints = document.querySelectorAll(".check");
-const lines = document.querySelectorAll(".progressLine");
+let lines = document.querySelectorAll(".progressLine");
+let btns = document.querySelectorAll("button");
+let checks = document.querySelectorAll(".check");
+let linecount = 0;
 let checkCount = 0;
-let lineCount = -1;
-const forBtn = document.querySelector(".next");
-const backBtn = document.querySelector(".prev");
-forBtn.addEventListener("click", function () {
-  checkPoints[checkCount].classList.add("done");
-  checkCount++;
-  lineCount++;
-  lines[lineCount].classList.add("going");
+btns[1].addEventListener("click", function () {
+  if (linecount < lines.length) {
+    lines[linecount].classList.add("reaching");
+    linecount++;
+  }
+  if (checkCount < checks.length) {
+    checks[checkCount].classList.add("checkpntDone");
+    checkCount++;
+  }
 });
