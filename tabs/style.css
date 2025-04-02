@@ -1,0 +1,36 @@
+* {
+  font-family: monospace;
+  font-size: large;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  /* text-decoration: none; */
+  list-style-type: none;
+  border-radius: 5px;
+  /* padding: 0.2rem; */
+}
+
+.content {
+  width: 20rem;
+}
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selected {
+  background-color: rgb(219, 219, 219);
+}
+a {
+  text-decoration: none;
+  color: rgb(106, 106, 252);
+}
+p {
+  background-color: bisque;
+  text-align: center;
+}
