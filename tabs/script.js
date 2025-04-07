@@ -1,6 +1,5 @@
 let buttons = document.querySelectorAll("li");
 let parags = document.querySelector("p");
-let msgCount = 0;
 const msgs = [
   "racoons ARE AWESOME",
   "black fazzies ARE AWESOME",
@@ -17,6 +16,5 @@ buttons.forEach((prps, index) => {
     rstBtns();
     this.classList.add("selected");
     parags.innerHTML = msgs[index];
-    msgCount++;
   });
 });

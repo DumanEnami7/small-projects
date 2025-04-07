@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  width: 20rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 13rem;
+  gap: 2rem;
+}
+.imagePlace {
+  width: 70%;
+  height: 15rem;
+  background-color: rgb(198, 211, 251);
+}
+.buttons {
+  display: flex;
+  gap: 2rem;
+}
+html {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 90%;
+  height: 90%;
+}
+.imagePlace {
+  height: 13rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fading {
+  animation-name: fadeAway;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeAway {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+button {
+  border: none;
+  background-color: dimgray;
+  padding: 0.5rem;
+  color: aliceblue;
+  border-radius: 5px;
+}
+button:hover {
+  transition: all 0.3s;
+  scale: 1.1;
+  color: rgb(110, 228, 255);
+  background-color: #333;
+}
